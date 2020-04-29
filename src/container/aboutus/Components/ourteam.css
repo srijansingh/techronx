@@ -1,0 +1,224 @@
+.ourteam{
+    
+    padding: 2rem;
+    padding-top:0;
+    background-color: rgb(234, 247, 251);
+   
+}
+
+.ourteam-box{
+    display:flex;
+   
+    width:100%;
+    flex-direction: row;
+    /* justify-content: space-around;  */
+    /* flex-wrap: wrap; */
+     /* align-items: center;  */
+
+     /* background-color: blue; */
+}
+
+
+.ourteam-heading{
+    font-size:3rem;
+    word-spacing: 15px;
+    letter-spacing:0.1rem;
+    font-weight:bold;
+    padding:  5rem 2rem;
+    /* background:red; */
+   
+    /* margin:3rem 1rem; */
+    color:#000000;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.ourteam .span{
+    align-items:center;
+    height:0.2rem;
+    width:100px;
+    display:flex;
+    flex-direction: row;
+    transition:2s ease;
+}
+.ourteam .span .span-1{
+    width:100%;
+    height:100%;
+    background:pink;
+    border-radius:5px 0 0 5px;
+}
+.ourteam .span .span-2{
+    width:100%;
+    height:100%;
+    background:purple;
+    border-radius:0 5px 5px 0;
+}
+
+.ourteam .team-box{
+    max-width:250px;
+    height:350px;
+    width:100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    /* border:1px solid blue; */
+    background:rgb(254, 255, 255);
+    margin-bottom:4rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    border-radius: 10px;
+    /* padding:2rem 0; */
+   
+
+}
+.ourteam .team-cover{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    /* border:1px solid rgb(5, 0, 12); */
+    /* background-image: url("../../../images/0.jpeg"); */
+    background-color: rgb(14, 0, 39);
+    background-position: center;
+    background-size:100%;
+    width:100%;
+    height:120px;
+    border-radius: 10px;
+}
+.team-box .team-userlogo{
+    width:120px;
+    height:120px;
+    position: absolute;
+    top:60px;
+    border-radius: 50%;
+    left:50%;
+    transform: translate(-50%,0);
+    padding:0.2rem;
+    background:white;
+    box-shadow: 0 8px 6px -6px black;
+}
+.team-box .team-userlogo img{
+    height:100%;
+    border-radius: 50%;
+    width:100%;
+    
+
+}
+
+.team-box .username-box{
+   margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* background:green; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+.team-box .username-box .username{
+   font-weight:bold;
+}
+.team-box .username-box .userposition{
+    font-size:0.9rem;
+}
+
+.team-box .user-link{
+    background: rgb(14, 0, 39);
+    margin-top:1rem;
+    height:40px;
+    color:White;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius:0 0 10px 10px;
+}
+.team-box .user-link .icon{
+    color:white;
+}
+
+.keyindustry{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    background:#fff;
+    box-shadow: 0 8px 6px -6px rgba(60, 172, 246, 0.52);
+}
+
+.keyindustry-box{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+
+    justify-content: space-around; 
+    /* flex-wrap: wrap; */
+     align-items: center; 
+
+     /* background-color: blue; */
+}
+
+
+.keyindustry-heading{
+    font-size:2rem;
+    word-spacing: 15px;
+    letter-spacing:0.1rem;
+    font-weight:bold;
+    padding:  2rem 2rem;
+    /* background:red; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom:1rem;
+    color:#000000;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.keyindustry .span{
+    align-items:center;
+    height:0.2rem;
+    width:100px;
+    display:flex;
+    flex-direction: row;
+    transition:2s ease;
+}
+.keyindustry .span .span-1{
+    width:100%;
+    height:100%;
+    background:pink;
+    border-radius:5px 0 0 5px;
+}
+.keyindustry .span .span-2{
+    width:100%;
+    height:100%;
+    background:purple;
+    border-radius:0 5px 5px 0;
+}
+.keyindustry .key-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* text-align: left;
+    align-items: left; */
+}
+.keyindustry .key-name{
+    max-width: 300px;
+    width:100%;
+    /* background-color: blue; */
+    
+}
+.keyindustry .ul li{
+   list-style-type:circle;
+   color:#333333;
+   line-height:1.6;
+   letter-spacing: 0.03em;
+
+}
+.keyindustry .key-heading{
+    font-weight: bold;
+}

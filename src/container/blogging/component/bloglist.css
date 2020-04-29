@@ -1,0 +1,27 @@
+
+.root-bloglist{
+    max-width:600px;
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    border-bottom:1px soild #ccc;
+    margin:2px 0;
+    background:white;
+}
+.image-bloglist{
+    width:200px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.image-bloglist img{
+    width:200px;
+    height:150px;
+}
+
+.heading-bloglist{
+    font-size:1.3rem;
+    color:black;
+    padding:0.5rem
+}

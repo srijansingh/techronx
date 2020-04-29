@@ -1,0 +1,61 @@
+.testimonial{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background:rgb(218, 226, 241);
+}
+
+.test-content{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem;
+}
+.test-intro{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    max-width:500px;
+    width:100%;
+
+}
+.test-head{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+.test-bio{
+    font-size:1rem;
+    line-height: 1.3;
+    margin:0.5rem 0;
+    color:#333333;
+    display:flex;
+    flex-wrap:wrap;
+}
+.test-intro .icon{
+    font-size: 2rem;
+    color:rgb(102, 44, 179);
+}
+.test-author .author-name{
+    font-size:1.2rem;
+    /* font-weight:bold; */
+    padding:0.3rem 0;
+}
+.test-author .author-position{
+    color:#666666;
+    font-size: 0.9rem;
+}
+.author-image{
+    width:100%;
+    height:80vh;
+    /* background:green; */
+}
+
+@media(max-width:800px){
+    .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}

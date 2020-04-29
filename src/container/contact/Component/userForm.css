@@ -1,0 +1,12 @@
+.userForm {
+    display:flex;
+    flex-direction:column;
+    height:95vh;
+    align-items:center;
+    justify-content:center;
+    padding:3rem 0;
+    width:100%;
+
+   
+    /* border:2px solid black; */
+}

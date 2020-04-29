@@ -1,0 +1,13 @@
+.landing{
+    /* height:105vh; */
+
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    background:#090202;
+    /* border-top:1000px red;
+    border-right: 1000px solid white; 
+    border-left:1000px solid white; */
+}
+

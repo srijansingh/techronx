@@ -1,0 +1,29 @@
+.testimonials{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    
+    /* height:90vh; */
+    width:100%;
+    background-size: 100% 100%;
+    
+}
+.testimonials img{
+    max-width:550px;
+    max-height:350px;
+    height:100%;
+   
+    width:100%;
+}
+
+
+@media(max-width:800px){
+    .testimonials img{
+        max-width:700px;
+        max-height:250px;
+        height:100%;
+        width:100%;
+    }
+    
+}

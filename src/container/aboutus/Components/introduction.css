@@ -1,0 +1,56 @@
+.introduction{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.introduction .introduction-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1000px;
+    padding:2rem;
+}
+
+.introduction-bio{
+    font-size:1.2rem;
+    color: #707070;
+    line-height: 1.3;
+    word-wrap:wrap;
+    margin:2rem 0;
+    font-weight:bold;
+}
+
+.introduction-bio h2{
+    font-size: 2rem;
+}
+
+.introduction-biobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.introduction-bio-2{
+    width:100%;
+    color: #707070;
+    line-height: 1.5;
+    font-size:0.9;
+    letter-spacing: 1.1;
+    
+}
+
+.introduction-bio-image{
+    height:100vh;
+    width:100%;
+    background-image: url('../../../images/aboutus2.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+@media(max-width:800px){
+    .introduction-bio-image{
+       height:50vh;
+    }
+}
